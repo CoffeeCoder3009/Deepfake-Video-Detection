@@ -59,7 +59,5 @@ The model achieves **84% classification accuracy** by integrating spatial and te
 
 ## Authors
 This project was a collaborative effort by the following team members:
-- **Your Name**: Contributions (e.g., spatial embeddings, LSTM development, etc.)
-- **Team Member 1's Name**: Contributions (e.g., dataset preparation, model training, etc.)
-- **Team Member 2's Name**: Contributions (e.g., integration, documentation, etc.)
-
+- [**Purvanshi Nijhawan**](https://github.com/CoffeeCoder3009)
+- [**Sohit Dhawan**](https://github.com/sohitdhawan)

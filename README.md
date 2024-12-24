@@ -23,6 +23,19 @@ Our approach builds on the work described in the paper ["It Wasn’t Me: Irregul
 4. **Classification**:  
    - Spatial and temporal embeddings are combined and passed through a Multi-Layer Perceptron (MLP) to classify videos as "Real" or "Fake".
 
+## Project Structure
+- **Temporal Branch:** Contains temporal and resnet embeddings
+- **Spatial Branch:** Contains spatial embeddings
+- **Papers:** Research papers and related resources.
+- **Models:** Trained models used in this project.
+- **jupyter_notebooks:** Jupyter notebooks with code and explanations.
+- **Dataset:** Full dataset used for training and testing.
+- **combined_embeddings:** Combined embeddings from different branches.
+- **Check:** Any additional files for verification.
+
+## Google Drive Link
+All project resources can be accessed via this [Google Drive folder](https://drive.google.com/drive/folders/1lEL5rbFGgqa0Y9EvAMMIV1cj5huHG3bI?usp=sharing).
+
 ## Results
 
 The model achieves **84% classification accuracy** by integrating spatial and temporal features. This high performance is a result of the combined strength of XceptionNet for spatial analysis and LSTMs for temporal feature extraction.
@@ -43,3 +56,10 @@ The model achieves **84% classification accuracy** by integrating spatial and te
 - RetinaFace
 - NumPy
 - SciPy
+
+## Authors
+This project was a collaborative effort by the following team members:
+- **Your Name**: Contributions (e.g., spatial embeddings, LSTM development, etc.)
+- **Team Member 1's Name**: Contributions (e.g., dataset preparation, model training, etc.)
+- **Team Member 2's Name**: Contributions (e.g., integration, documentation, etc.)
+

@@ -8,7 +8,7 @@ DeepFake videos are artificially generated videos that replace a person's face w
 
 Our approach builds on the work described in the paper ["It Wasn’t Me: Irregular Identity in Deepfake Videos"](https://github.com/HongguLiu/Identity-Inconsistency-DeepFake-Detection) by Honggu Liu et al., ICIP 2023. It incorporates spatial and temporal analysis to classify videos as real or fake.
 
-## Methodology
+## Methodology and Model Architecture
 
 1. **Face Detection and Extraction**:  
    Faces are detected and cropped from every 25th frame of the video using RetinaFace.
@@ -22,6 +22,8 @@ Our approach builds on the work described in the paper ["It Wasn’t Me: Irregul
 
 4. **Classification**:  
    - Spatial and temporal embeddings are combined and passed through a Multi-Layer Perceptron (MLP) to classify videos as "Real" or "Fake".
+
+![Model Architecture](https://drive.google.com/uc?id=1kS2ebxH__wYWyzfwYkbMwigtN3U4Kw-w)
 
 ## Project Structure
 - **Temporal Branch:** Contains temporal and resnet embeddings
